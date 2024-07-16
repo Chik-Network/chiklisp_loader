@@ -1,6 +1,6 @@
 from importlib_resources import as_file, files, Package
 
-from clvm_rs import Program
+from klvm_rs import Program
 
 
 try:
@@ -29,7 +29,7 @@ def load_program(
         or a dotted string "foo.bar")
     resource_path: a `.hex` resource file in that package
 
-    If the `chialisp_builder` wheel is installed, it will be used to rebuild
+    If the `chiklisp_builder` wheel is installed, it will be used to rebuild
     the `.hex` file on demand prior to it being returned to optimize the
     develop/test cycle.
     """
