@@ -1,6 +1,6 @@
 from importlib_resources import as_file, files, Package
 
-from klvm_rs import Program
+from clvk_rs import Program
 
 
 try:

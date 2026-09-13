@@ -5,7 +5,7 @@ authors = [{name = "Richard Kiss", email = "him@richardkiss.com"}]
 license = {file = "LICENSE"}
 readme = "README.md"
 version = "0.1.2"
-dependencies = ["klvm_rs", "importlib_resources"]
+dependencies = ["clvk_rs", "importlib_resources"]
 
 [build-system]
 requires = ["setuptools>=42", "wheel"]
